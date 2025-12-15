@@ -310,6 +310,22 @@ body {
     font-size: 1.2rem;
 }
 
+.social-icon-img {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    transition: all 0.3s ease;
+    filter: brightness(0) invert(1);
+    opacity: 0.9;
+}
+
+.social-link:hover .social-icon-img {
+    opacity: 1;
+    transform: scale(1.15);
+    filter: brightness(0) invert(1) sepia(1) saturate(5) hue-rotate(45deg);
+}
+
 /* Sections */
 .section {
     padding: 80px 0;
