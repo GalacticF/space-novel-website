@@ -10,7 +10,8 @@ const translations = {
         },
         hero: {
             description: "A choice-driven visual novel inspired by the golden age of 1960s science fiction. Deep narrative branching, moral dilemmas, political intrigue, and retro space-opera atmosphere.",
-            playSteam: "Play on Steam"
+            playSteam: "Play on Steam",
+            playAppStore: "Download on App Store"
         },
         universe: {
             title: "Space Novel Universe",
@@ -78,7 +79,8 @@ const translations = {
         },
         hero: {
             description: "Визуальная новелла с выбором, вдохновленная золотым веком научной фантастики 1960-х годов. Глубокая повествовательная ветвление, моральные дилеммы, политические интриги и атмосфера ретро космической оперы.",
-            playSteam: "Играть в Steam"
+            playSteam: "Играть в Steam",
+            playAppStore: "Скачать в App Store"
         },
         universe: {
             title: "Вселенная Space Novel",
@@ -146,7 +148,8 @@ const translations = {
         },
         hero: {
             description: "Un roman visuel à choix multiples inspiré de l'âge d'or de la science-fiction des années 1960. Narration à embranchements profonds, dilemmes moraux, intrigues politiques et atmosphère de space-opera rétro.",
-            playSteam: "Jouer sur Steam"
+            playSteam: "Jouer sur Steam",
+            playAppStore: "Télécharger sur l'App Store"
         },
         universe: {
             title: "Univers Space Novel",
@@ -214,7 +217,8 @@ const translations = {
         },
         hero: {
             description: "Una novela visual basada en elecciones inspirada en la edad de oro de la ciencia ficción de los años 1960. Narrativa profunda con ramificaciones, dilemas morales, intrigas políticas y atmósfera de space-opera retro.",
-            playSteam: "Jugar en Steam"
+            playSteam: "Jugar en Steam",
+            playAppStore: "Descargar en App Store"
         },
         universe: {
             title: "Universo Space Novel",
@@ -282,7 +286,8 @@ const translations = {
         },
         hero: {
             description: "Uma novela visual baseada em escolhas inspirada na era de ouro da ficção científica dos anos 1960. Narrativa profunda com ramificações, dilemas morais, intrigas políticas e atmosfera de space-opera retrô.",
-            playSteam: "Jogar no Steam"
+            playSteam: "Jogar no Steam",
+            playAppStore: "Baixar na App Store"
         },
         universe: {
             title: "Universo Space Novel",
@@ -350,7 +355,8 @@ const translations = {
         },
         hero: {
             description: "一款受1960年代科幻黄金时代启发的选择驱动视觉小说。深度分支叙事、道德困境、政治阴谋和复古太空歌剧氛围。",
-            playSteam: "在Steam上玩"
+            playSteam: "在Steam上玩",
+            playAppStore: "在App Store下载"
         },
         universe: {
             title: "Space Novel宇宙",
@@ -418,7 +424,8 @@ const translations = {
         },
         hero: {
             description: "1960年代のSF黄金時代にインスピレーションを受けた選択式ビジュアルノベル。深い分岐ストーリー、道徳的ジレンマ、政治的陰謀、レトロなスペースオペラの雰囲気。",
-            playSteam: "Steamでプレイ"
+            playSteam: "Steamでプレイ",
+            playAppStore: "App Storeでダウンロード"
         },
         universe: {
             title: "Space Novel宇宙",

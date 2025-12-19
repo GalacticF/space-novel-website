@@ -254,6 +254,12 @@ body {
     color: var(--text-light);
 }
 
+.store-buttons {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
 .steam-button {
     display: inline-block;
     padding: 15px 40px;
@@ -267,12 +273,37 @@ body {
     transition: all 0.3s ease;
     text-align: center;
     box-shadow: 0 5px 20px rgba(255, 215, 0, 0.2);
+    flex: 1;
+    min-width: 200px;
 }
 
 .steam-button:hover {
     transform: translateY(-2px);
     box-shadow: 0 8px 30px rgba(255, 215, 0, 0.4);
     background: linear-gradient(135deg, #2a475e 0%, #3d5a7a 100%);
+}
+
+.appstore-button {
+    display: inline-block;
+    padding: 15px 40px;
+    background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
+    color: var(--text-light);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    border: 2px solid var(--primary-yellow);
+    transition: all 0.3s ease;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(255, 215, 0, 0.2);
+    flex: 1;
+    min-width: 200px;
+}
+
+.appstore-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 30px rgba(255, 215, 0, 0.4);
+    background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
 }
 
 .hero-social {
@@ -595,6 +626,15 @@ body {
     
     .hero-content {
         grid-template-columns: 1fr;
+    }
+    
+    .store-buttons {
+        flex-direction: column;
+    }
+    
+    .steam-button,
+    .appstore-button {
+        min-width: 100%;
     }
     
     .hero-social {
